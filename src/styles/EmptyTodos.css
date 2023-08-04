@@ -1,0 +1,51 @@
+.EmptyTodos {
+  margin-top: 20px;
+  width: 320px;
+  height: 150px;
+  background-color: aqua;
+  border-radius: 16px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.EmptyTodos h1 {
+  width: 60%;
+  text-align: center;
+  font-size: 3.7rem;
+  animation: textMove 2s infinite;
+}
+.EmptyTodos .smile{
+  font-size: 60px;
+  position: absolute;
+  right: calc(10px + 25px);
+  top: calc(50% - 25px);
+  animation: smileMove 2s infinite;
+  transition: 0.3s all ease;
+}
+
+@keyframes smileMove {
+  0%{
+    transform: translateY(-25px);
+  }
+  50%{
+    transform: translateY(25px);
+  }
+  100%{
+    transform: translateY(-25px);
+  }
+}
+@keyframes textMove {
+  0%{
+    transform: translateY(25px);
+  }
+  50%{
+    transform: translateY(-25px);
+  }
+  100%{
+    transform: translateY(25px);
+  }
+}

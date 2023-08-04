@@ -1,0 +1,51 @@
+.TodoForm {
+  width: 320px;
+  height: auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px;
+}
+.TodoForm label {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 15px;
+}
+
+.TodoForm  textarea{
+  width: 75%;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.TodoForm  textarea:focus{
+  outline-color: aqua;
+}
+.TodoForm .validator-option{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  align-items: center;
+}
+.TodoForm-btn {
+  background: none;
+  border: none;
+}
+.TodoForm .validator-option button .add{
+  color: green;
+  font-size: 22px;
+}
+.TodoForm .validator-option .cancel{
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.684);
+}
+.TodoForm .validator-option .cancel:hover{
+  color: red;
+}
+.TodoForm .validator-option .add:hover{
+  color: darkgreen;
+}

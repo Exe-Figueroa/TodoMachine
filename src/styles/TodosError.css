@@ -1,0 +1,19 @@
+.TodosError {
+  width: 320px;
+  height: 120px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background: #65daf9;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.TodosError h1{
+  font-size: 4rem;
+}
+.TodosError span{
+  font-size: 2.3rem;
+}
